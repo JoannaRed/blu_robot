@@ -1,4 +1,4 @@
-#Wed Apr 05 16:52:35 CEST 2023
-base.0=C\:\\Users\\jbara\\Dev\\blu_chat\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Sun Apr 09 13:28:10 CEST 2023
+base.0=F\:\\Programming\\Flutter Projects\\blu_robot_joanna\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

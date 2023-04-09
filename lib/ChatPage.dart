@@ -86,12 +86,14 @@ class _ChatPage extends State<ChatPage> {
 
   @override
   Widget build(BuildContext context) {
-    return (isConnecting
+    /*return (isConnecting
         ? Text('Connecting chat to ' + widget.server.name + '...')
         : isConnected
+        
             ? Joystick(server: widget.server)
+            
             : Text('Chat log with ' + widget.server.name));
-    /* 
+  */
     final List<Row> list = messages.map((_message) {
       return Row(
         children: <Widget>[
@@ -165,7 +167,7 @@ class _ChatPage extends State<ChatPage> {
           ],
         ),
       ),
-    ); */
+    );
   }
 
   void _onDataReceived(Uint8List data) {
